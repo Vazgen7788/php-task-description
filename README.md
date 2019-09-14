@@ -72,7 +72,7 @@ when user WIN
 	{
 		"status": "success",
 		"user_id": 1,
-		"status": "WIN"
+		"result": "WIN"
 	}
 ```
 
@@ -81,7 +81,7 @@ wher user LOST
 	{
 		"status": "success",
 		"user_id": 1,
-		"status": "LOST"
+		"result": "LOST"
 	}
 ```
 
