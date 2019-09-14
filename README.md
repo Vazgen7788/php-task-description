@@ -3,7 +3,7 @@
 
 App should have users
 
-id, username,  wallet_id, created_at, updated_at
+id, username, created_at, updated_at
 
 > create 3 users
 
@@ -13,7 +13,7 @@ id, username,  wallet_id, created_at, updated_at
 
 wallet properties are
 
-id, currency_id, balance, created_at, updated_at
+id, user_id, currency_id, balance, created_at, updated_at
 
 > create randomly wallets for users
 > each user should have 1 or 2 wallet
@@ -32,7 +32,7 @@ id, country, code
 
 ----------------------------------------------------
 
-App should have casino_transactions
+App should have slot_transactions
 
 slot_transaction properties are
 
@@ -110,12 +110,12 @@ Should return report for last 2 minutes
 				"code": "AMD"
 			},
 			"balance": 100,
+			"report": {
+				"start": "timestamp here",
+				"end": "timestamp here",
+				"win": 100,
+				"lost": 50
+			}
 		}],
-		"report": {
-			"start": "timestamp here",
-			"end": "timestamp here",
-			"win": 100,
-			"lost": 50
-		}
 	}
 ```
