@@ -110,12 +110,12 @@ Should return report for last 2 minutes
 				"code": "AMD"
 			},
 			"balance": 100,
+			"report": {
+				"start": "timestamp here",
+				"end": "timestamp here",
+				"win": 100,
+				"lost": 50
+			}
 		}],
-		"report": {
-			"start": "timestamp here",
-			"end": "timestamp here",
-			"win": 100,
-			"lost": 50
-		}
 	}
 ```
