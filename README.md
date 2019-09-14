@@ -32,7 +32,7 @@ id, country, code
 
 ----------------------------------------------------
 
-App should have casino_transactions
+App should have slot_transactions
 
 slot_transaction properties are
 
